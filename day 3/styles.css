@@ -1,0 +1,98 @@
+body{
+   background-color: aliceblue;
+}
+div {
+
+  margin-top: 64px;
+  border: 5px solid;
+  background-color: #f9ed69;
+  align-content: center;
+  height: 1500px;
+  border-radius: 20px;
+}
+
+
+div.buttons {
+   height: 0px;
+   width: 350px;
+   border: 0px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+button {
+  height: 50px;
+  width: 120px;
+  border-color: red;
+  border-width: 4px;
+  border-style: groove;
+  margin-right: 50px;
+  border-radius: 50px;
+  font-size: larger;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+a {
+  color: rgba(0, 0, 0);
+  text-decoration: none;
+}
+
+#btn-1 {
+   height: 30px;
+   width: 150px;
+   border-color: red;
+   border-width: 4px;
+   border-style: groove;
+   margin-right: 30px;
+   border-radius: 50px;
+   font-size: small;
+   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+   cursor: pointer;
+   outline: none;
+   transition: 0.2s all;
+ }
+
+ #btn-2 {
+   height: 30px;
+   width: 150px;
+   border-color: red;
+   border-width: 4px;
+   border-style: groove;
+   margin-top: 30px;
+   margin-right: 30px;
+   border-radius: 50px;
+   font-size: small;
+   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+   cursor: pointer;
+   outline: none;
+   transition: 0.2s all;
+ }
+
+
+ #div-1{
+    
+   width: 528px;
+   height: 400px;
+   margin-left: 381px;
+   padding-left: 217px;
+   padding-top: 77px;
+
+ }
+
+ span {
+   border: 5px solid;
+   border-radius: 20px;
+   margin-left: 632px;
+   margin-bottom: 0px;
+   text-align: center;
+   font-size: 5em;
+   background-color: #f08a5d;
+ }
