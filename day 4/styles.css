@@ -28,6 +28,7 @@ nav li:hover {
   border-left: 1px dotted #ffffff;
   border-right: 1px dotted #ffffff;
   border-top: 1px dotted #ffffff;
+  box-shadow:  2px 2px #aaaaaa;
 }
 
 nav button {
@@ -60,10 +61,9 @@ div.card {
   margin-right: 0px;
   height: 400px;
   width: 300px;
-  border-bottom-width: 0px;
-  border-bottom-width: 3px;
-  border-style: solid;
+  border-style: solid 1px;
   background-color: cornsilk;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 #head-title {
